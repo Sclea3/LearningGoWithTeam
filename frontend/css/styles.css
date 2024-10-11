@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.app {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.currency-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.currency-table th, .currency-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.currency-table th {
+    background-color: #4CAF50;
+    color: white;
+}
